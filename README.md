@@ -12,3 +12,5 @@ _To Do_: Make it a little bit more funtional. Add scoring.
 
 
 ### Pull requests are welcome! 
+
+This code is provided as-is. No maintenance and no support is given from my side.
