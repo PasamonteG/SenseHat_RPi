@@ -52,13 +52,19 @@ def draw_ball():
 
 
 # Main program
-go = True
-while go == True:
+try:
     go = True
-    sense.stick.direction_up = move_up
-    sense.stick.direction_down = move_down
-    sense.clear(0,0,0)
-    draw_bat()
-    draw_ball()
-    sleep(0.3)
+    while go == True:
+        go = True
+        sense.stick.direction_up = move_up
+        sense.stick.direction_down = move_down
+        sense.clear(0,0,0)
+        draw_bat()
+        draw_ball()
+        sleep(0.3)
+except KeyboardInterrupt:
+    # This keyboard interruption allows us to stop the game by using control-c 
+    # and clears the leds switching them off
+    sense.clear()
+    print('\n Stopped')
     
