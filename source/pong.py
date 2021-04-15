@@ -48,9 +48,6 @@ def draw_ball():
         sense.clear()
         go = False
 
-
-
-
 # Main program
 try:
     go = True
