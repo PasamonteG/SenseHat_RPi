@@ -26,7 +26,7 @@ def show_temp(vel):
 
 def press_down(event):
     if event.action == 'pressed' and event.direction == 'down':
-        return show_temp(0.1)
+        return show_temp(0.1) ## you can code here the velocity of the displayed text. 0.2 is faster than 0.1
 
 def main():
     try:
