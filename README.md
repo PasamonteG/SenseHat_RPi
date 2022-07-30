@@ -10,6 +10,8 @@ _To Do_: Random positions in the tree as well as random colors.
 
 _To Do_: Make it a little bit more funtional. Add scoring.
 
+**tempButton.py**: displays the temperature when you click the joystick down. The color of the displayed temperature changes when it's hotter or colder.
+
 
 ### Pull requests are welcome! 
 
