@@ -18,8 +18,10 @@ def show_temp(vel):
     tempStr = str(temp1)
     if temp1 <= 21.0:
         sense.show_message(tempStr,scroll_speed=vel,text_colour=(0,128,255),back_colour=(0,0,0))
-    elif temp1 > 21.0  and temp1 <= 25:
+    elif temp1 > 21.0  and temp1 <= 23.0:
         sense.show_message(tempStr,scroll_speed=vel,text_colour=(0,153,0),back_colour=(0,0,0))
+    elif temp1 > 23.0  and temp1 <= 25:
+        sense.show_message(tempStr,scroll_speed=vel,text_colour=(255,179,25),back_colour=(0,0,0))
     elif temp1 > 25:
         sense.show_message(tempStr,scroll_speed=vel,text_colour=(153,0,0),back_colour=(0,0,0))
     print(temp1)
